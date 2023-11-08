@@ -11,6 +11,7 @@ variables:
   REGISTRY_HOST: "docker.io"
   IMAGE_NAME: "httpd"
   IMAGE_TAG: "latest"
+steps:
 
 - task: Cache@2
   inputs:
